@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property UINavigationController *navigationController;
+@property UINavigationController *naviController;
 @end
