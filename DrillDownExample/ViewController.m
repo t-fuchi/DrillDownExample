@@ -17,12 +17,12 @@
     ChildViewController *childViewController = [[ChildViewController alloc]
                                                 initWithNibName:@"ChildViewController" bundle:nil];
     childViewController.title = @"/";
-	self.navigationController = [[UINavigationController alloc] initWithRootViewController:childViewController];
+    self.naviController = [[UINavigationController alloc] initWithRootViewController:childViewController];
 }
 
 - (IBAction)open:(id)sender
 {
-    [self presentViewController:self.navigationController animated:YES completion:nil];
+    [self presentViewController:self.naviController animated:YES completion:nil];
 }
 
 @end
